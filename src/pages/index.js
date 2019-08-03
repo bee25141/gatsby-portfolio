@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-// import Lightbox from 'react-images'
+import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
 // import thumb01 from '../assets/images/thumbs/01.jpg'
@@ -15,7 +15,6 @@ import Gallery from '../components/Gallery'
 import clicky_game from '../assets/images/thumbs/clicky_game.png'
 import bamazon from '../assets/images/thumbs/bamazon.png'
 import friend_finder from '../assets/images/thumbs/friend_finder.png'
-import crystals_collector from '../assets/images/thumbs/crystals_collector.png'
 import lunch_calculator from '../assets/images/thumbs/lunch_calculator.png'
 import liri from '../assets/images/thumbs/liri.png'
 
@@ -26,13 +25,6 @@ import crystals_collector_full from '../assets/images/fulls/crystals_collector.p
 import lunch_calculator_full from '../assets/images/fulls/lunch_calculator.png'
 import liri_full from '../assets/images/fulls/liri.png'
 
-// import full01 from '../assets/images/fulls/01.jpg'
-// import full02 from '../assets/images/fulls/02.jpg'
-// import full03 from '../assets/images/fulls/03.jpg'
-// import full04 from '../assets/images/fulls/04.jpg'
-// import full05 from '../assets/images/fulls/05.jpg'
-// import full06 from '../assets/images/fulls/06.jpg'
-
 // const DEFAULT_IMAGES = [
 //     { id: '1', source: full01, thumbnail: thumb01, caption: 'Photo 1', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
 //     { id: '2', source: full02, thumbnail: thumb02, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
@@ -42,12 +34,11 @@ import liri_full from '../assets/images/fulls/liri.png'
 //     { id: '6', source: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
 // ];
 const DEFAULT_IMAGES = [
-    { id: '1', source: clicky_game_full, thumbnail: clicky_game, caption: 'Clicky Game', description: 'React memory game'},
-    { id: '2', source: friend_finder_full, thumbnail: friend_finder, caption: 'Friend Finder', description: 'Web app to fiend friends with simmilar personalities'},
-    { id: '3', source: bamazon_full, thumbnail: bamazon, caption: 'Bamazon', description: 'Command line storefront application utilizing MySql'},
-    { id: '4', source: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '5', source: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '6', source: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
+    { id: '1', source: "https://github.com/bee25141/Clicky-Game", thumbnail: clicky_game, caption: 'Clicky Game', description: 'React memory game'},
+    { id: '2', source: "https://github.com/bee25141/FriendFinder", thumbnail: friend_finder, caption: 'Friend Finder', description: 'Web app to fiend friends with simmilar personalities'},
+    { id: '3', source: "https://github.com/bee25141/lunch-calculator", thumbnail: lunch_calculator, caption: 'Lunchbox Chi', description: "Finding the best 'bang for your buck' lunch in Chicago (Under Construction)"},
+    { id: '4', source: "https://github.com/bee25141/bamazon", thumbnail: bamazon, caption: 'Bamazon', description: 'Command line storefront application utilizing MySql'},
+    { id: '5', source: "https://github.com/bee25141/liri-node-app", thumbnail: liri, caption: 'Liri Node App', description: 'Command line node app that returns data for movies, concerts and songs'},
 ];
 
 class HomeIndex extends React.Component {
