@@ -15,7 +15,7 @@ import Gallery from '../components/Gallery'
 import clicky_game from '../assets/images/thumbs/clicky_game.png'
 import bamazon from '../assets/images/thumbs/bamazon.png'
 import friend_finder from '../assets/images/thumbs/friend_finder.png'
-import lunch_calculator from '../assets/images/thumbs/lunch_calculator.png'
+import lunch_calculator from '../assets/images/thumbs/lunch_calculator1.png'
 import liri from '../assets/images/thumbs/liri.png'
 
 // const DEFAULT_IMAGES = [
