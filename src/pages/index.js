@@ -18,13 +18,6 @@ import friend_finder from '../assets/images/thumbs/friend_finder.png'
 import lunch_calculator from '../assets/images/thumbs/lunch_calculator.png'
 import liri from '../assets/images/thumbs/liri.png'
 
-import clicky_game_full from '../assets/images/fulls/clicky_game.png'
-import bamazon_full from '../assets/images/fulls/bamazon.png'
-import friend_finder_full from '../assets/images/fulls/friend_finder.png'
-import crystals_collector_full from '../assets/images/fulls/crystals_collector.png'
-import lunch_calculator_full from '../assets/images/fulls/lunch_calculator.png'
-import liri_full from '../assets/images/fulls/liri.png'
-
 // const DEFAULT_IMAGES = [
 //     { id: '1', source: full01, thumbnail: thumb01, caption: 'Photo 1', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
 //     { id: '2', source: full02, thumbnail: thumb02, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
