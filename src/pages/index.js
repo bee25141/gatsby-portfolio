@@ -45,7 +45,7 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>Hi! I'm Tony</h2>
+                            <h2>Hi! I'm Tony.</h2>
                         </header>
                         <p>I’m a web developer proficient in HTML, CSS, Javascript, React.js, Node.js, Express,
                         MySql, and MongoDB. Upon graduating college I began my professional career in the real estate industry at Baird
