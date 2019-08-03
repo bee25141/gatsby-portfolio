@@ -31,8 +31,8 @@ const DEFAULT_IMAGES = [
 class HomeIndex extends React.Component {
 
     render() {
-        const siteTitle = "Gatsby Starter - Strata"
-        const siteDescription = "Site description"
+        const siteTitle = "Tony Bee"
+        const siteDescription = "Welcome to My Portfolio"
 
         return (
             <Layout>
@@ -45,10 +45,19 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>Ipsum lorem dolor aliquam ante commodo<br />
-                            magna sed accumsan arcu neque.</h2>
+                            <h2>Hi! I'm Tony</h2>
                         </header>
-                        <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
+                        <p>I’m a web developer proficient in HTML, CSS, Javascript, React.js, Node.js, Express,
+                        MySql, and MongoDB. Upon graduating college I began my professional career in the real estate industry at Baird
+                        & Warner Title Services, where I’ve worked my way up as a part time scanner, to a leader within the operations.
+
+                        I’m currently in the last few weeks of the Northwestern Full Stack
+                        Developer Coding Bootcamp and will soon be transitioning into my career as a
+                        software engineer. I’m in love with the learning experience, and the
+                        feeling of accomplishment that comes with solving difficult problems
+                        that require critical thinking. My experience in the bootcamp has
+                        fostered a newfound passion for coding and web development, and I look
+                        forward to a lifelong journey of learning in the field.</p>
                         <ul className="actions">
                             <li><a href="#" className="button">Learn More</a></li>
                         </ul>
