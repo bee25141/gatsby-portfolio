@@ -31,7 +31,7 @@ class Gallery extends Component {
                         onClick={e => {
                             e.preventDefault();
                             // this.toggleLightbox(i);
-                            <a href={obj.source} />   
+                            window.open(obj.source, "_blank");
                         }}
                     >
                         <img src={obj.thumbnail} />
