@@ -5,27 +5,12 @@ import Layout from '../components/layout'
 import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
-// import thumb01 from '../assets/images/thumbs/01.jpg'
-// import thumb02 from '../assets/images/thumbs/02.jpg'
-// import thumb03 from '../assets/images/thumbs/03.jpg'
-// import thumb04 from '../assets/images/thumbs/04.jpg'
-// import thumb05 from '../assets/images/thumbs/05.jpg'
-// import thumb06 from '../assets/images/thumbs/06.jpg'
-
 import clicky_game from '../assets/images/thumbs/clicky_game.png'
 import bamazon from '../assets/images/thumbs/bamazon.png'
 import friend_finder from '../assets/images/thumbs/friend_finder.png'
 import lunch_calculator from '../assets/images/thumbs/lunch_calculator1.png'
 import liri from '../assets/images/thumbs/liri.png'
 
-// const DEFAULT_IMAGES = [
-//     { id: '1', source: full01, thumbnail: thumb01, caption: 'Photo 1', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-//     { id: '2', source: full02, thumbnail: thumb02, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-//     { id: '3', source: full03, thumbnail: thumb03, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-//     { id: '4', source: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-//     { id: '5', source: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-//     { id: '6', source: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
-// ];
 const DEFAULT_IMAGES = [
     { id: '1', source: "https://github.com/bee25141/Clicky-Game", thumbnail: clicky_game, caption: 'Clicky Game', description: 'React memory game'},
     { id: '2', source: "https://github.com/bee25141/FriendFinder", thumbnail: friend_finder, caption: 'Friend Finder', description: 'Web app to fiend friends with simmilar personalities'},
@@ -65,7 +50,7 @@ class HomeIndex extends React.Component {
                         fostered a newfound passion for coding and web development, and I look
                         forward to a lifelong journey of learning in the field.</p>
                         <ul className="actions">
-                            <li><a href="#" className="button">Learn More</a></li>
+                            {/* <li><a href="#" className="button">Learn More</a></li> */}
                         </ul>
                     </section>
 
