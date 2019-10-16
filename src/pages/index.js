@@ -38,7 +38,7 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h2>Hi! I'm Tony.</h2>
                         </header>
-                        <p>I’m a Full Stack Developer and AWS certified Solutions Architect proficient in Amazon Web Services, Docker, Kubernetes, React.js, Node.js, MySQL, MongoDB, Javascript, CSS and HTML. Upon graduating college I began my professional career in the real estate industry at Baird & Warner Title Services, 
+                        <p>I’m a Full Stack Developer and AWS Certified Solutions Architect proficient in Amazon Web Services, Docker, Kubernetes, React.js, Node.js, MySQL, MongoDB, Javascript, CSS and HTML. Upon graduating college I began my professional career in the real estate industry at Baird & Warner Title Services, 
                             where I worked my way up from a part-time scanner, to a leader within the operations. Over the past year I've been making a career shift into tech - completing the Northwestern Full Stack Coding Bootcamp and passing the 
                             AWS Certified Solutions Architect exam on my first attempt.</p>
 
