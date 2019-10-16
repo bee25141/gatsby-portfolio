@@ -38,19 +38,14 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h2>Hi! I'm Tony.</h2>
                         </header>
-                        <p>I’m a web developer proficient in HTML, CSS, Javascript, React.js, Node.js, Express,
-                        MySql, MongoDB, and Amazon Web Services. Upon graduating college I began my professional career in the real estate industry at Baird
-                        & Warner Title Services, where I’ve worked my way up as a part time scanner, to a leader within the operations.</p>
+                        <p>I’m a Full Stack Developer and AWS certified Solutions Architect proficient in Amazon Web Services, Docker, Kubernetes, React.js, Node.js, MySQL, MongoDB, Javascript, CSS and HTML. Upon graduating college I began my professional career in the real estate industry at Baird & Warner Title Services, 
+                            where I worked my way up from a part-time scanner, to a leader within the operations. Over the past year I've been making a career shift into tech - completing the Northwestern Full Stack Coding Bootcamp and passing the 
+                            AWS Certified Solutions Architect exam on my first attempt.</p>
 
-                        <p> I recently completed the Northwestern Full Stack
-                        Developer Coding Bootcamp and am transitioning into my career as a
-                        software engineer. I’m in love with the learning experience, and the
-                        feeling of accomplishment that comes with solving difficult problems
-                        that require critical thinking. My experience in the bootcamp has
-                        fostered a newfound passion for coding and web development, and I look
-                        forward to a lifelong journey of learning in the field.</p>
+                        <p>I’m in love with the learning experience, and the feeling of accomplishment that comes with solving difficult problems that require critical thinking. 
+                            My experience in the bootcamp and my work with AWS has fostered a newfound passion for coding, DevOps, and cloud, and I look forward to a lifelong journey of learning in the field. </p>
 
-                        <p>I'm seeking a full-stack or backend developer position and very open to relocating for the right opportunity.
+                        <p>I'm seeking a Junior DevOps or Cloud Engineer position and very open to relocating for the right opportunity.
                             Feel free to contact me using the form below, or connect with me on LinkedIn! </p>
                         <ul className="actions">
                             <li><a href="https://www.linkedin.com/in/tony-bee-abab93174/" target="_blank" className="button">Connect on LinkedIn</a></li>
