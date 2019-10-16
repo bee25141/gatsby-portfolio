@@ -6,6 +6,7 @@ import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
 import clicky_game from '../assets/images/thumbs/clicky_game.png'
+import k8s_fib from '../assets/images/thumbs/k8s_fib'
 import bamazon from '../assets/images/thumbs/bamazon.png'
 import friend_finder from '../assets/images/thumbs/friend_finder.png'
 import lunch_calculator from '../assets/images/thumbs/lunchbox_chi3.png'
@@ -13,10 +14,10 @@ import liri from '../assets/images/thumbs/liri.png'
 
 const DEFAULT_IMAGES = [
     { id: '1', source: "https://github.com/bee25141/lunch-calculator", thumbnail: lunch_calculator, caption: 'Lunchbox Chi', description: "Finding the best 'bang for your buck' lunch in Chicago"},
-    { id: '2', source: "https://github.com/bee25141/Clicky-Game", thumbnail: clicky_game, caption: 'Clicky Game', description: 'React.js memory game deployed using Docker & AWS'},
-    { id: '3', source: "https://github.com/bee25141/FriendFinder", thumbnail: friend_finder, caption: 'Friend Finder', description: 'Web app to fiend friends with simmilar personalities'},
-    { id: '4', source: "https://github.com/bee25141/bamazon", thumbnail: bamazon, caption: 'Bamazon', description: 'Command line storefront application utilizing MySql'},
-    { id: '5', source: "https://github.com/bee25141/liri-node-app", thumbnail: liri, caption: 'Liri Node App', description: 'Command line node app that returns data for movies, concerts and songs'},
+    { id: '2', source: "https://github.com/bee25141/multi-k8s", thumbnail: k8s_fib, caption: "K8's-Fib-Calculator", description: "Kubernetes web application for determining Fibonacci value hosted on GCP"},
+    { id: '3', source: "https://github.com/bee25141/Clicky-Game", thumbnail: clicky_game, caption: 'Clicky Game', description: 'React.js memory game deployed using Docker & AWS'},
+    { id: '4', source: "https://github.com/bee25141/FriendFinder", thumbnail: friend_finder, caption: 'Friend Finder', description: 'Web app to fiend friends with simmilar personalities'},
+    { id: '5', source: "https://github.com/bee25141/bamazon", thumbnail: bamazon, caption: 'Bamazon', description: 'Command line storefront application utilizing MySql'},
 ];
 
 class HomeIndex extends React.Component {
