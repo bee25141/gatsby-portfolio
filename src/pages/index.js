@@ -12,7 +12,7 @@ import lunch_calculator from '../assets/images/thumbs/lunchbox_chi3.png'
 import liri from '../assets/images/thumbs/liri.png'
 
 const DEFAULT_IMAGES = [
-    { id: '1', source: "https://github.com/bee25141/lunch-calculator", thumbnail: lunch_calculator, caption: 'Lunchbox Chi', description: "Finding the best 'bang for your buck' lunch in Chicago (Under Construction)"},
+    { id: '1', source: "https://github.com/bee25141/lunch-calculator", thumbnail: lunch_calculator, caption: 'Lunchbox Chi', description: "Finding the best 'bang for your buck' lunch in Chicago"},
     { id: '2', source: "https://github.com/bee25141/Clicky-Game", thumbnail: clicky_game, caption: 'Clicky Game', description: 'React.js memory game deployed using Docker & AWS'},
     { id: '3', source: "https://github.com/bee25141/FriendFinder", thumbnail: friend_finder, caption: 'Friend Finder', description: 'Web app to fiend friends with simmilar personalities'},
     { id: '4', source: "https://github.com/bee25141/bamazon", thumbnail: bamazon, caption: 'Bamazon', description: 'Command line storefront application utilizing MySql'},
