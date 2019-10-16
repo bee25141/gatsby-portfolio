@@ -6,11 +6,10 @@ import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
 import clicky_game from '../assets/images/thumbs/clicky_game.png'
-import k8s_fib from '../assets/images/thumbs/k8s_fib'
+import k8s_fib from '../assets/images/thumbs/k8s_fib.png'
 import bamazon from '../assets/images/thumbs/bamazon.png'
 import friend_finder from '../assets/images/thumbs/friend_finder.png'
 import lunch_calculator from '../assets/images/thumbs/lunchbox_chi3.png'
-import liri from '../assets/images/thumbs/liri.png'
 
 const DEFAULT_IMAGES = [
     { id: '1', source: "https://github.com/bee25141/lunch-calculator", thumbnail: lunch_calculator, caption: 'Lunchbox Chi', description: "Finding the best 'bang for your buck' lunch in Chicago"},
